@@ -1,0 +1,39 @@
+.session-container-kanan {
+    width: 49%;
+    padding-top: 1%;
+    padding-left: 3%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.session-title {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-bottom: 4%;
+}
+.session-outline {
+    margin-top: 1%;
+    font-size: 1.5rem;
+}
+.session-container-kiri {
+    width: 49%;
+    padding-top: 1%;
+    padding-left: 3%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.learning-materials-title {
+    font-size: 2.5rem;
+    margin-bottom: 4%;
+}
+
+.learning-materials-links {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.learning-materials-links:hover {
+    color: black;
+    text-decoration: none;
+}

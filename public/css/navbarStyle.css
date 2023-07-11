@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 11vh;
+    padding-left: 1%;
+    background-color: lightskyblue;
+}
+
+.navbar-brand {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand img {
+    width: 80%;
+}
+
+.navbar-content {
+    width: 89%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.dropdown {
+    margin: 1vw;
+    margin-right: 20px;
+}
+
+.dropdown-menu {
+    display: flex;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 10vw;
+    box-shadow: 0vw 0.52vw 1vw 0vw rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu p{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 0.8vw 1vw;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    border-radius: 5%;
+}
+
+.dropdown-menu a:hover {
+    background-color: darkcyan;
+}
+
+a.sign:hover {
+    background-color: lightblue;
+    color: white;
+    border-radius: 20%;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    border-radius: 5%;
+}
+
+form.searchbox {
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+}
+
+.searchbox input {
+    background: transparent;
+    flex: 1;
+    border: none;
+    border-radius: 60px;
+    outline: none;
+    padding: 20px 20px;
+    font-size: 20px;
+    color: black;
+    outline-color: lightskyblue;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.searchbox button img {
+    width: 25px;
+}
+
+.searchbox button {
+    border: 0;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background: lightseagreen;
+    cursor: pointer;
+}
+
+.navbar-menu-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+a.sign {
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 5px;
+    margin-left: 10px;
+    color: lightgoldenrodyellow;
+}
+
+.profilepic {
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+}
+
+.landing-page{
+    margin:auto;
+    padding-left: 10%;
+}
+
+.landing-page h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.landing-page h3 a{
+    color:black;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.landing-page h3 a:hover{
+    color:rgb(214, 39, 39);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.image img{
+    margin-top:5%;
+    height: auto;
+}

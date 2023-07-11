@@ -1,0 +1,65 @@
+.manage-game-container {
+    display: flex;
+    flex-direction: column;
+}
+.game-container {
+    width: 70%;
+    margin: 10px auto;
+    display: flex;
+    border: 1px solid rgb(217, 217, 217);
+    padding: 20px;
+}
+.game-title {
+    width: 32%;
+}
+.pegi-rating,
+.game-genre,
+.game-price {
+    width: 17%;
+}
+.game-content-container {
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    border-bottom: 1px solid rgb(217, 217, 217);
+    border-left: 1px solid rgb(217, 217, 217);
+    border-right: 1px solid rgb(217, 217, 217);
+}
+.content-item {
+    padding: 10px;
+}
+.game-image {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.edit-link {
+    margin-right: 50px;
+    text-decoration: none;
+    color: blue;
+}
+.delete-link {
+    text-decoration: none;
+    color: red;
+}
+.add-game-link {
+    margin-top: 1%;
+    align-self: flex-end;
+    margin-right: 20%;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 8px;
+    background-color: lightskyblue;
+    color: white;
+}
+.add-game-link:hover {
+    border: 1px solid lightskyblue;
+    background-color: rgb(94, 193, 255);
+    text-decoration: none;
+    color: white;
+}
