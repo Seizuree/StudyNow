@@ -1,6 +1,6 @@
 @extends('Template.navbar')
 
-@section('title', 'Home')
+@section('title', 'StudyNow: Home')
 
 @section('content')
     <link rel="stylesheet" href="{{ url('css/navbarStyle.css') }}" />

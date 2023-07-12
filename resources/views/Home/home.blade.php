@@ -1,6 +1,6 @@
 @extends('Template.navbar')
 
-@section('title', 'Home')
+@section('title', 'StudyNow: Home')
 
 <link rel="stylesheet" href="/css/homeStyle.css">
 @section('content')
